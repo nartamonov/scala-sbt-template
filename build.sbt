@@ -13,7 +13,7 @@ lazy val sampleProject = (project in file("."))
 lazy val commonSettings = Seq(
   version               := "0.1",
   startYear             := Some(2016),
-  scalaVersion          := "2.11.7",
+  scalaVersion          := "2.11.8",
   scalacOptions         ++= Seq("-target:jvm-1.7", "-deprecation", "-unchecked", "-Xcheckinit", "-encoding", "utf8", "-feature"),
   scalacOptions         ++= Seq(
     "-language:implicitConversions",
