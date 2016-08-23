@@ -6,7 +6,9 @@ lazy val sampleProject = (project in file("."))
     fork := true,
 
     libraryDependencies ++= Seq(
-      "com.typesafe.akka" %% "akka-actor" % "2.4.1"
+      "com.typesafe.akka" %% "akka-actor" % "2.4.1",
+      "org.scalactic" %% "scalactic" % "3.0.0",
+      "org.scalatest" %% "scalatest" % "3.0.0" % "test"
     )
   )
 
