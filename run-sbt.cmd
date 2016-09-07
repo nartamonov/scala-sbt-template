@@ -1,0 +1,1 @@
+start conemu64 /cmd "chcp 1251 & sbt.bat"
