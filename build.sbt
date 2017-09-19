@@ -6,15 +6,15 @@ lazy val $name;format="camel"$ = (project in file("."))
     fork := true,
 
     libraryDependencies ++= Seq(
-      "com.typesafe.akka" %% "akka-actor" % "2.4.1",
-      "org.scalactic" %% "scalactic" % "3.0.0",
-      "org.scalatest" %% "scalatest" % "3.0.0" % "test"
+      "com.lihaoyi" %% "pprint" % "0.5.1",
+      "org.scalactic" %% "scalactic" % "3.0.2",
+      "org.scalatest" %% "scalatest" % "3.0.2" % "test"
     )
   )
 
 lazy val commonSettings = Seq(
   version               := "0.1",
-  startYear             := Some(2016),
+  startYear             := Some(2017),
   scalaVersion          := "$scala_version$",
   scalacOptions         ++= Seq("-target:jvm-1.8", "-deprecation", "-unchecked", "-Xcheckinit", "-encoding", "utf8", "-feature"),
   scalacOptions         ++= Seq(
