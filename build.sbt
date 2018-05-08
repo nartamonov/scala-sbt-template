@@ -6,9 +6,9 @@ lazy val $name;format="camel"$ = (project in file("."))
     fork := true,
 
     libraryDependencies ++= Seq(
-      "com.lihaoyi" %% "pprint" % "0.5.1",
-      "org.scalactic" %% "scalactic" % "3.0.2",
-      "org.scalatest" %% "scalatest" % "3.0.2" % "test"
+      "com.lihaoyi" %% "pprint" % "0.5.3",
+      "org.scalactic" %% "scalactic" % "3.0.5",
+      "org.scalatest" %% "scalatest" % "3.0.5" % "test"
     )
   )
 
