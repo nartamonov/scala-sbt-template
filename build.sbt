@@ -14,7 +14,7 @@ lazy val $name;format="camel"$ = (project in file("."))
 
 lazy val commonSettings = Seq(
   version               := "0.1",
-  startYear             := Some(2017),
+  startYear             := Some(2018),
   scalaVersion          := "$scala_version$",
   scalacOptions         ++= Seq("-target:jvm-1.8", "-deprecation", "-unchecked", "-Xcheckinit", "-encoding", "utf8", "-feature"),
   scalacOptions         ++= Seq(
